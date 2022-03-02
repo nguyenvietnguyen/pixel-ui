@@ -528,34 +528,10 @@ const Home = (props: HomeProps) => {
       <MainContainer>
         <WalletContainer>
           <Logo>
-            <a
-              href="http://localhost:3000/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/" target="_blank" rel="noopener noreferrer">
               <img alt="" src="logo.png" />
             </a>
           </Logo>
-          <Menu>
-            <li>
-              <a
-                href="http://localhost:3000/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Menu 1
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://localhost:3000/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Menu 2
-              </a>
-            </li>
-          </Menu>
           <Wallet>
             {wallet ? (
               <WalletAmount>
